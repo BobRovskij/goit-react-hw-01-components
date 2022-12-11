@@ -1,0 +1,25 @@
+.transaction__history {
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.label {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+    color: white;
+}
+
+.item,
+.label {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.string:nth-child(even) {
+    background-color: silver;
+}
